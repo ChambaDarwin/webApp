@@ -1,5 +1,6 @@
 // src/components/AdminPostForm.tsx
-import { useState, useEffect, FormEvent, ChangeEvent } from "react";
+import { useState, useEffect } from "react";
+import type { FormEvent, ChangeEvent } from "react";
 import { addDoc, collection, doc, updateDoc } from "firebase/firestore";
 import { db } from "../firebase/config";
 import { subirImagenPost } from "../supabase/config";
